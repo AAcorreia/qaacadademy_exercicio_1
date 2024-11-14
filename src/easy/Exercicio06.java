@@ -3,19 +3,18 @@ package easy;
 import javax.swing.*;
 
 public class Exercicio06 {
-    public static void main(String[] args) {
-        double primeiraNota = Double.parseDouble(JOptionPane.showInputDialog("Primeira nota"));
-        double segundaNota = Double.parseDouble(JOptionPane.showInputDialog("Segunda nota"));
+    public String exibirNota (double primeiraNota, double segundaNota) {
+
         double media = (primeiraNota + segundaNota) / 2;
 
         if (media > 5) {
-            System.out.println("Você está Aprovado");
+            return "Você está Aprovado";
         }
-        else if (media == 5) {
-            System.out.println("Exame");
+        if  (media == 5) {
+            return "Você está de Exame";
         }
         else {
-            System.out.println("Você está Reprovado");
+            return "Você está Reprovado";
         }
     }
 }

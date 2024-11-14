@@ -21,16 +21,23 @@ public class ExecuçãoExercicios_easy {
 //        int numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero"));
 //        System.out.println("O valor do dobro digitado é: " +exercicio04.calcularDobro(numeroDigitado));
 
-        //exercicio05
-        Exercicio05 exercicio05 = new Exercicio05();
-        int primeiroNumero = Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro número"));
-        int segundoNumero = Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo número"));
-        int terceiroNumero = Integer.parseInt(JOptionPane.showInputDialog("Digite o terceiro número"));
+//        //exercicio05
+//        Exercicio05 exercicio05 = new Exercicio05();
+//        int primeiroNumero = Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro número"));
+//        int segundoNumero = Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo número"));
+//        int terceiroNumero = Integer.parseInt(JOptionPane.showInputDialog("Digite o terceiro número"));
+//
+//        System.out.println("A soma dos tres números é: " + exercicio05.calcularSoma(primeiroNumero, segundoNumero, terceiroNumero));
+//        System.out.println("A subtração é: " + exercicio05.calcularSubtracao(primeiroNumero, segundoNumero, terceiroNumero));
+//        System.out.println("A multiplicacao é: " + exercicio05.calcularMultiplicacao(primeiroNumero, segundoNumero, terceiroNumero));
+//        System.out.println("A media dos tres números é: " + exercicio05.calcularMedia(primeiroNumero, segundoNumero, terceiroNumero));
 
-        System.out.println("A soma dos tres números é: " + exercicio05.calcularSoma(primeiroNumero, segundoNumero, terceiroNumero));
-        System.out.println("A subtração é: " + exercicio05.calcularSubtracao(primeiroNumero, segundoNumero, terceiroNumero));
-        System.out.println("A multiplicacao é: " + exercicio05.calcularMultiplicacao(primeiroNumero, segundoNumero, terceiroNumero));
-        System.out.println("A media dos tres números é: " + exercicio05.calcularMedia(primeiroNumero, segundoNumero, terceiroNumero));
+        //exercicio06
+        Exercicio06 exercicio06 = new Exercicio06();
+        double primeiraNota = Double.parseDouble(JOptionPane.showInputDialog("Primeira nota"));
+        double segundaNota = Double.parseDouble(JOptionPane.showInputDialog("Segunda nota"));
+
+        System.out.println(exercicio06.exibirNota(primeiraNota, segundaNota));
 
     }
 
