@@ -33,12 +33,17 @@ public class ExecuçãoExercicios_easy {
 //        System.out.println("A media dos tres números é: " + exercicio05.calcularMedia(primeiroNumero, segundoNumero, terceiroNumero));
 
         //exercicio06
-        Exercicio06 exercicio06 = new Exercicio06();
-        double primeiraNota = Double.parseDouble(JOptionPane.showInputDialog("Primeira nota"));
-        double segundaNota = Double.parseDouble(JOptionPane.showInputDialog("Segunda nota"));
+//        Exercicio06 exercicio06 = new Exercicio06();
+//        double primeiraNota = Double.parseDouble(JOptionPane.showInputDialog("Primeira nota"));
+//        double segundaNota = Double.parseDouble(JOptionPane.showInputDialog("Segunda nota"));
+//        System.out.println(exercicio06.exibirNota(primeiraNota, segundaNota));
 
-        System.out.println(exercicio06.exibirNota(primeiraNota, segundaNota));
+        //exercicio07
+        Exercicio07 exercicio07 = new Exercicio07();
+        double salario = Double.parseDouble(JOptionPane.showInputDialog("Valor do sálario"));
+        System.out.println("O valor a ser pago é de: " + exercicio07.calcularInss(salario));
 
     }
 
 }
+
