@@ -39,9 +39,21 @@ public class ExecuçãoExercicios_easy {
 //        System.out.println(exercicio06.exibirNota(primeiraNota, segundaNota));
 
         //exercicio07
-        Exercicio07 exercicio07 = new Exercicio07();
-        double salario = Double.parseDouble(JOptionPane.showInputDialog("Valor do sálario"));
-        System.out.println("O valor a ser pago é de: " + exercicio07.calcularInss(salario));
+//        Exercicio07 exercicio07 = new Exercicio07();
+//        double salario = Double.parseDouble(JOptionPane.showInputDialog("Valor do sálario"));
+//        System.out.println("O valor a ser pago é de: " + exercicio07.calcularInss(salario));
+
+        //exercicio08
+//        Exercicio08 exercicio08 = new Exercicio08();
+//        double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do seu salário bruto"));
+//        Double impostoRenda = exercicio08.calcularImpostos(salario);
+//        System.out.println("O valor do sálario bruto a receber é: " + salario);
+//        System.out.println("O valor do Imposto de renda devido é: " + impostoRenda);
+//        System.out.println("O valor do sálario liquido a receber é: " + (salario - impostoRenda));
+
+        //exercicio09
+        Exercicio09 exercicio09 = new Exercicio09();
+        exercicio09.calacularTabuada(10);
 
     }
 

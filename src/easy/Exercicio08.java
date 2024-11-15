@@ -3,8 +3,8 @@ package easy;
 import javax.swing.*;
 
 public class Exercicio08 {
-    public static void main(String[] args) {
-        double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do seu salário bruto"));
+    public double calcularImpostos (double salario) {
+
         double impostoRenda = 0;
         double aliquotaImposto = 0;
         double deducaoImposto = 0;
@@ -33,9 +33,7 @@ public class Exercicio08 {
             impostoRenda =  (salario * aliquotaImposto) - deducaoImposto;
 
         }
-        System.out.println("O valor do sálario bruto a receber é: " + salario);
-        System.out.println("O valor do Imposto de renda devido é: " + impostoRenda);
-        System.out.println("O valor do sálario liquido a receber é: " + (salario - impostoRenda));
+        return impostoRenda;
 
 
     }

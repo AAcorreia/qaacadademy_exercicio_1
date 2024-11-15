@@ -3,8 +3,8 @@ package easy;
 import javax.swing.*;
 
 public class Exercicio09 {
-    public static void main(String[] args) {
-        int numeroInteiro = Integer.parseInt(JOptionPane.showInputDialog("Digite um número entre 1 á 10 para calcular a tabuada "));
+    public void calacularTabuada (int numeroInteiro) {
+
         if (numeroInteiro <=0 || numeroInteiro >10) {
             System.out.println("Número inválido!");
         } else {
