@@ -3,14 +3,19 @@ package easy;
 import javax.swing.*;
 
 public class Exercicio10 {
-    public static void main(String[] args) {
-        double investimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do investimento!"));
+    public double calcularValorInvestimento (double ValorInvestimento) {
         double taxaJuros = 0.12;
         int tempoInvestido = 10;
-        taxaJuros = taxaJuros * tempoInvestido;
-        double valorTotal = (investimento * taxaJuros) + investimento;
-        System.out.println("Valor investido: " + investimento);
-        System.out.println("Taxa de juros acumulado: " + (taxaJuros*100) + "%");
-        System.out.println("Valor total: " + valorTotal);
+        double taxaJurosTotal = 0.0;
+
+        for (int i = 1; i <= tempoInvestido; i++) {
+            taxaJurosTotal = taxaJurosTotal + taxaJuros;
+        }
+        double valorTotal = (ValorInvestimento * taxaJurosTotal) + ValorInvestimento;
+        return valorTotal;
+    }
+
+    public double calcularValorJuros (double valorTotal, double ValorInvestimento){
+        return (valorTotal - ValorInvestimento);
     }
 }

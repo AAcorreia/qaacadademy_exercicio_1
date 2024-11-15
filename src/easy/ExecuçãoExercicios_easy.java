@@ -52,8 +52,24 @@ public class ExecuçãoExercicios_easy {
 //        System.out.println("O valor do sálario liquido a receber é: " + (salario - impostoRenda));
 
         //exercicio09
-        Exercicio09 exercicio09 = new Exercicio09();
-        exercicio09.calacularTabuada(10);
+//        Exercicio09 exercicio09 = new Exercicio09();
+//        exercicio09.calacularTabuada(10);
+
+        //exercicio10
+//        double ValorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor investido!"));
+//        Exercicio10 exercicio10 = new Exercicio10();
+//        double valorTotal = exercicio10.calcularValorInvestimento(ValorInvestimento);
+//
+//        System.out.println("Valor investido: " + ValorInvestimento);
+//        System.out.println("Valor total: " + valorTotal);
+//        System.out.println("Valor de juros acumulado: " + exercicio10.calcularValorJuros(valorTotal, ValorInvestimento));
+
+        //exercicio11
+        Exercicio11 exercicio11 = new Exercicio11();
+        int numeroInt = Integer.parseInt(JOptionPane.showInputDialog("Insira um número inteiro!"));
+        exercicio11.calculoNumeroDigitado(numeroInt);
+
+        //exercicio
 
     }
 

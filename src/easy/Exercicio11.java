@@ -4,9 +4,8 @@ import javax.swing.*;
 
 public class Exercicio11 {
 
-    public static void main(String[] args) {
+    public void calculoNumeroDigitado(int numeroInt) {
 
-        int numeroInt = Integer.parseInt(JOptionPane.showInputDialog("Insira um número inteiro!"));
         for (int i = 0; i <= 99; i++) {
             numeroInt = numeroInt + 2;
             System.out.println("Iteração: " + i +" - Valor: " +numeroInt);
