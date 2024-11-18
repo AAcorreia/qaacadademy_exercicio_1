@@ -19,10 +19,14 @@ public class ExecucaoExercicios_medium {
 //        System.out.println("O valor total do juros foi de: " +valorTotal);
 //        System.out.println("O valor do juros foi de: " +exercicio02.calcularValorDoJuros(valorTotal, valorInvestimento));
 
-        //exercicio03
+//        //exercicio03
+//        Exercicio03 exercicio03 = new Exercicio03();
+//        exercicio03.somaAteMil();
 
-        Exercicio03 exercicio03 = new Exercicio03();
-        exercicio03.somaAteMil();
+        //exercicio04
+        Exercicio04 exercicio04 = new Exercicio04();
+        exercicio04.multiplicacoaAteMil();
+
 
     }
 }
