@@ -1,10 +1,10 @@
 package medium;
 
 public class Exercicio03 {
-    public static void main(String[] args) {
+    public void somaAteMil() {
         int soma = 0;
-        int limite = 150;
-        for (int i = 0; i <= 100; i++) {
+        int limite = 1500;
+        for (int i = 0; i <= 1000; i++) {
             soma = i + soma;
             System.out.println("Iteração: " +i + " | Soma: " +soma);
 
