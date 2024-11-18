@@ -1,13 +1,11 @@
 package medium;
 
 public class Exercicio01 {
-    public static void main(String[] args) {
-        for (int i = 0; i <= 100; i++) {
-            if (i % 2 == 0){
-                System.out.println("O numero: " + i + " é Par");
+    public String ExibirParOuImpar (int numero) {
+        if (numero % 2 == 0){
+            return ("O numero: " + numero + " é Par");
             }   else{
-                System.out.println("O numero: " + i + " é Impar");
+                return ("O numero: " + numero + " é Impar");
             }
         }
-    }
 }
