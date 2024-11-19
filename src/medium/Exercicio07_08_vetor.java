@@ -2,7 +2,7 @@ package medium;
 
 public class Exercicio07_08_vetor {
 
-    public static void main(String[] args) {
+    public void exibirMesesDoAno() {
     // exercicio 07
     String[] vetorAno = new String[]{"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
 

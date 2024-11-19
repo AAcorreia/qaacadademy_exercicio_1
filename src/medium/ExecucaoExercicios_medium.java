@@ -27,15 +27,24 @@ public class ExecucaoExercicios_medium {
 //        Exercicio04 exercicio04 = new Exercicio04();
 //        exercicio04.multiplicacoaAteMil();
 
-        //exercicio05_vetor
+        //exercicio05_vetor//
+//        int [] vetorNumeros = {5, 3, 8, 9, 4};
+//        Exercicio05_vetor exercicio05_vetor = new Exercicio05_vetor();
+//        System.out.println("o menor numero é: " +exercicio05_vetor.retornaMenorNumero(vetorNumeros));
 
-        int [] vetorNumeros = {5, 3, 8, 9, 4};
-        Exercicio05_vetor exercicio05_vetor = new Exercicio05_vetor();
-        System.out.println("o menor numero é: " +exercicio05_vetor.retornaMenorNumero(vetorNumeros));
+//        //exercicio06_repeticao
+//        int numeroFatorial = 10;
+//        Exercicio06_repeticao exercicio06Repeticao = new Exercicio06_repeticao();
+//        System.out.println(exercicio06Repeticao.calcularFatorial(numeroFatorial));
+
+//        //exercicio07_08
+//        Exercicio07_08_vetor exercicio0708Vetor = new Exercicio07_08_vetor();
+//        exercicio0708Vetor.exibirMesesDoAno();
+
+        //exercicio09
 
 
-
-
+        //exercicio10
 
 
     }
