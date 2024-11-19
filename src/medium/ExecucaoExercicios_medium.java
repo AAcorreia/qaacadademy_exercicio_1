@@ -41,15 +41,17 @@ public class ExecucaoExercicios_medium {
 //        Exercicio07_08_vetor exercicio0708Vetor = new Exercicio07_08_vetor();
 //        exercicio0708Vetor.exibirMesesDoAno();
 
-        //exercicio09
-        String [] nomeAlunos = {"Flavio", "Aline", "Mariana"};
-        Exercicio09 exercicio09 = new Exercicio09();
-        int [] numeroAlunos = exercicio09.atribuirNumeracaoAlunos(nomeAlunos);
-        exercicio09.exibirNomeENumeroAlunos(nomeAlunos, numeroAlunos);
+//        //exercicio09
+//        String [] nomeAlunos = {"Flavio", "Aline", "Mariana"};
+//        Exercicio09 exercicio09 = new Exercicio09();
+//        int [] numeroAlunos = exercicio09.atribuirNumeracaoAlunos(nomeAlunos);
+//        exercicio09.exibirNomeENumeroAlunos(nomeAlunos, numeroAlunos);
 
-
-        //exercicio10
-
+//        //exercicio10
+//        int elemento = 10;
+//        Exercicio10 exercicio10 = new Exercicio10();
+//        int [] vetorFibonti = exercicio10.calcularFibonati(elemento);
+//        exercicio10.exibirVetor(vetorFibonti);
 
     }
 }
