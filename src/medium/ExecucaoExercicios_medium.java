@@ -42,6 +42,10 @@ public class ExecucaoExercicios_medium {
 //        exercicio0708Vetor.exibirMesesDoAno();
 
         //exercicio09
+        String [] nomeAlunos = {"Flavio", "Aline", "Mariana"};
+        Exercicio09 exercicio09 = new Exercicio09();
+        int [] numeroAlunos = exercicio09.atribuirNumeracaoAlunos(nomeAlunos);
+        exercicio09.exibirNomeENumeroAlunos(nomeAlunos, numeroAlunos);
 
 
         //exercicio10
