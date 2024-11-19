@@ -23,9 +23,19 @@ public class ExecucaoExercicios_medium {
 //        Exercicio03 exercicio03 = new Exercicio03();
 //        exercicio03.somaAteMil();
 
-        //exercicio04
-        Exercicio04 exercicio04 = new Exercicio04();
-        exercicio04.multiplicacoaAteMil();
+//        //exercicio04
+//        Exercicio04 exercicio04 = new Exercicio04();
+//        exercicio04.multiplicacoaAteMil();
+
+        //exercicio05_vetor
+
+        int [] vetorNumeros = {5, 3, 8, 9, 4};
+        Exercicio05_vetor exercicio05_vetor = new Exercicio05_vetor();
+        System.out.println("o menor numero é: " +exercicio05_vetor.retornaMenorNumero(vetorNumeros));
+
+
+
+
 
 
     }
